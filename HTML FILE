@@ -1,0 +1,70 @@
+<html lang="">
+
+  <link rel="stylesheet" href="Lab 6 Style.css">
+
+  <body>
+
+
+    <div id="logo">
+
+      <div class="vista-create-share" data-vista-create-id="628eb3731be5383fab66542f"></div>
+      <script type="text/javascript" src="https://static.create.vista.com/js/embedded_v1.min.js?v=1.111.7" async></script>
+
+    </div>
+
+
+    <div id="buttonDiv">
+      <button style="button" id="buttonLeft">Sheets</button>
+      <button style="button" id="buttonCenter">About</button>
+      <button style="button" id="buttonCenter2">Learn</button>
+      <button style="button" id="buttonRight">Community</button>
+
+
+      <button style="button" id="signInButton">Sign In</button>
+
+    </div>
+
+
+
+  </body>
+
+  <div id="middleSpace">
+
+  </div>
+
+  <div>
+    <ul class="set">
+      <li class="white b"></li>
+      <li class="black as"></li>
+      <li class="white a"></li>
+      <li class="black gs"></li>
+      <li class="white g"></li>
+      <li class="black fs"></li>
+      <li class="white f"></li>
+      <li class="white e"></li>
+
+
+      <li class="black ds"></li>
+      <li class="white d"></li>
+      <li class="black cs"></li>
+      <li class="white c"></li>
+      <li class="white b"></li>
+
+      <li class="black as"></li>
+      <li class="white a"></li>
+      <li class="black gs"></li>
+      <li class="white g"></li>
+      <li class="black fs"></li>
+      <li class="white f"></li>
+      <li class="white e"></li>
+
+      <li class="black ds"></li>
+      <li class="white d"></li>
+      <li class="black cs"></li>
+      <li class="white c"></li>
+
+    </ul>
+  </div>
+
+
+</html>
