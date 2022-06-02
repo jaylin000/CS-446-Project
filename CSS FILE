@@ -4,8 +4,8 @@
   float: left;
   margin-right: 10px;
 }
-
-#buttonLeft {
+ 
+#sheetsButton {
  
 color: white;
 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/187/vwood.png);
@@ -19,23 +19,12 @@ margin-left: 2px;
  
 }
  
-#buttonLeft:active {
+#sheetsButton:active {
 background: lightgrey;
 color: black;
 }
  
-#buttonCenter{
-color: white;
-background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/187/vwood.png);
-border: 1px solid black;
-border-top: none;
-border-bottom: none;
-font-size: 30px;
-padding: 20px;
- 
-}
-
-#buttonCenter2{
+#aboutButton{
 color: white;
 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/187/vwood.png);
 border: 1px solid black;
@@ -46,17 +35,29 @@ padding: 20px;
  
 }
  
-#buttonCenter:active {
-background: lightgrey;
-color: black;
-}
-
-#buttonCenter2:active {
+#aboutButton:active{
 background: lightgrey;
 color: black;
 }
  
-#buttonRight {
+#learnButton{
+color: white;
+background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/187/vwood.png);
+border: 1px solid black;
+border-top: none;
+border-bottom: none;
+font-size: 30px;
+padding: 20px;
+ 
+}
+ 
+#learnButton:active {
+background: lightgrey;
+color: black;
+}
+ 
+ 
+#communityButton {
 color: white;
 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/187/vwood.png);
 border: 1px solid black;
@@ -69,12 +70,12 @@ margin-right: 40px;
  
 }
  
-#buttonRight:active {
+#communityButton:active {
 background: lightgrey;
 color: black;
 }
-
-
+ 
+ 
 #signInButton {
 border: 1px solid black;
 display: inline-block;
@@ -85,7 +86,7 @@ padding: 20px;
 color: white;
 margin: 22px;
 }
-
+ 
 #signInButton:active {
 background: lightgrey;
 color: black;
@@ -100,7 +101,7 @@ color: black;
 font-size: 0px;
 text-align: center;
 }
-
+ 
  
 * {
 box-sizing: border-box;
