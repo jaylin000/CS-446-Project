@@ -30,3 +30,114 @@ hints.forEach(hintsOn);
 keys.forEach(key => key.addEventListener("transitionend", removeTransition));
  
 window.addEventListener("keydown", playNote);
+
+// reactions for top menu buttons
+// Requirements: 
+// 	-pictures “Marry Had A Little Lamb.png”, “aboutInfo.png”, “learnPage.png”,
+// 	  and “communityPage.png” be saved in the same folder as the HTML file.
+
+function displaySheets() {
+		// get the div
+		div = document.getElementById("middleSpace");
+		// clear the div
+		div.innerHTML="";
+		
+		// add a background to the div
+		background = document.createElement("div");
+		background.setAttribute("height", "500");
+		background.style.width="100%";
+		
+		// add the background to the div
+		div.appendChild(background);
+		
+		// add content to the div
+		//		generic sheet music line
+		song = document.createElement("img");
+		song.setAttribute("src", "Marry Had A Little Lamb.png");
+		song.setAttribute("height", "450");
+		song.style.width="100%"
+		song.style.position="absolute";
+		song.style.top=background.top + 10;
+		song.style.left="0";
+		div.appendChild(song);
+	}
+	
+	function displayAbout() {
+		// get the div
+		div = document.getElementById("middleSpace");
+		// clear the div
+		div.innerHTML="";
+		
+		// add a background to the div
+		background = document.createElement("div");
+		background.setAttribute("height", "500");
+		background.style.width="100%";
+		
+		// add the background to the div
+		div.appendChild(background);
+		
+		// add content to the div
+		//		generic about information
+		aboutInfo = document.createElement("img");
+		aboutInfo.setAttribute("src", "aboutInfo.png");
+		aboutInfo.setAttribute("height", "450");
+		aboutInfo.style.position="absolute";
+		aboutInfo.style.top=background.top;
+		aboutInfo.style.left="0";
+		div.appendChild(aboutInfo);
+		
+	}
+	
+	function displayLearn() {
+		// get the div
+		div = document.getElementById("middleSpace");
+		// clear the div
+		div.innerHTML="";
+		
+		// add a background to the div
+		background = document.createElement("div");
+		background.setAttribute("height", "500");
+		background.style.width="100%";
+		
+		// add the background to the div
+		div.appendChild(background);
+		
+		// add content to the div
+		//		generic learning content
+		learnPage = document.createElement("img");
+		learnPage.setAttribute("src", "learnPage.png");
+		learnPage.setAttribute("height", "490");
+		learnPage.style.position="absolute";
+		learnPage.style.top=background.top;
+		learnPage.style.left="0";
+		learnPage.style.width="100%";
+		div.appendChild(learnPage);
+
+		
+	}
+	
+	function displayCommunity() {
+		// get the div
+		div = document.getElementById("middleSpace");
+		// clear the div
+		div.innerHTML="";
+		
+		// add a background to the div
+		background = document.createElement("div");
+		background.setAttribute("height", "500");
+		background.style.width="100%";
+		
+		// add the background to the div
+		div.appendChild(background);
+		
+		// add content to the div
+		// 		generic community page
+		communityPage = document.createElement("img");
+		communityPage.setAttribute("src", "communityPage.png");
+		communityPage.setAttribute("height", "600");
+		communityPage.style.position="absolute";
+		communityPage.style.top=background.top;
+		communityPage.style.left="0";
+		communityPage.style.width="100%";
+		div.appendChild(communityPage);
+	}
