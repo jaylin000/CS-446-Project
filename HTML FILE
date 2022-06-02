@@ -1,28 +1,28 @@
 <html lang="">
-
+ 
   <body>
-
+ 
     <div id="logo">
-
+ 
       <div class="vista-create-share" data-vista-create-id="628eb3731be5383fab66542f"></div>
       <script type="text/javascript" src="https://static.create.vista.com/js/embedded_v1.min.js?v=1.111.7" async></script>
-
+ 
     </div>
-
-
+ 
+ 
     <div id="buttonDiv">
-      <button style="button" id="buttonLeft">Sheets</button>
-      <button style="button" id="buttonCenter">About</button>
-      <button style="button" id="buttonCenter2">Learn</button>
-      <button style="button" id="buttonRight">Community</button>
+      <button style="button" id="sheetsButton" onClick=”displaySheets()”>Sheets</button>
+      <button style="button" id="aboutButton" onClick=”displayAbout()”>About</button>
+      <button style="button" id="learnButton" onClick=”displayLearn()”>Learn</button>
+      <button style="button" id="communityButton" onClick=”displayCommunity()”>Community</button>
       <button style="button" id="signInButton">Sign In</button>
-
+ 
     </div>
-
+ 
     <div id="middleSpace">
-
+ 
     </div>
-
+ 
     <div class="keys">
       <ul class="set">
         <li class="white b">
@@ -34,14 +34,14 @@
         <li class="black fs"></li>
         <li class="white f"></li>
         <li class="white e"></li>
-
-
+ 
+ 
         <li class="black ds"></li>
         <li class="white d"></li>
         <li class="black cs"></li>
         <li class="white c"></li>
         <li class="white b"></li>
-
+ 
         <li class="black as"></li>
         <li class="white a"></li>
         <li class="black gs"></li>
@@ -49,12 +49,12 @@
         <li class="black fs"></li>
         <li class="white f"></li>
         <li class="white e"></li>
-
+ 
         <li class="black ds"></li>
         <li class="white d"></li>
         <li class="black cs"></li>
         <li class="white c"></li>
-
+ 
          
         <section id="main">
         
@@ -113,8 +113,8 @@
                 <span class="hints"></span>
             </div>
           </div>
-
-
+ 
+ 
           <audio data-key="65" src="http://carolinegabriel.com/demo/js-keyboard/sounds/040.wav"></audio>
           <audio data-key="87" src="http://carolinegabriel.com/demo/js-keyboard/sounds/041.wav"></audio>
           <audio data-key="83" src="http://carolinegabriel.com/demo/js-keyboard/sounds/042.wav"></audio>
@@ -132,13 +132,13 @@
           <audio data-key="76" src="http://carolinegabriel.com/demo/js-keyboard/sounds/054.wav"></audio>
           <audio data-key="80" src="http://carolinegabriel.com/demo/js-keyboard/sounds/055.wav"></audio>
           <audio data-key="186" src="http://carolinegabriel.com/demo/js-keyboard/sounds/056.wav"></audio>
-
+ 
         </section>
-
+ 
       </ul>
     </div>
     <audio data-key="65" src="http://carolinegabriel.com/demo/js-keyboard/sounds/040.wav"></audio>
-
+ 
   </body>
-
+ 
 </html>
